@@ -6,7 +6,7 @@ class AdminPanel extends React.Component {
     render(){
         return (           
             <div className="col-md-2">         
-                <form>
+                <form action="/settings" method="post">
                     <fieldset>
                         <legend>Puzzle game settings</legend>
                         <div className="form-group">  
